@@ -18,7 +18,7 @@ def traverse_nodes(node, board, state, identity):
     Returns:        A node from which the next stage of the search can proceed.
 
     """
-    pass
+
     # Hint: return leaf_node
 
 
@@ -55,6 +55,11 @@ def backpropagate(node, won):
         node:   A leaf node.
         won:    An indicator of whether the bot won or lost the game.
 
+    def backpropagate(node, score):
+        # if node is root return
+        # do update stats in node
+        # backpropagate(node.parent, score)
+
     """
     pass
 
@@ -68,6 +73,7 @@ def think(board, state):
 
     Returns:    The action to be taken.
 
+    Following: https://www.geeksforgeeks.org/ml-monte-carlo-tree-search-mcts/
     """
     identity_of_bot = board.current_player(state)
     root_node = MCTSNode(parent=None, parent_action=None, action_list=board.legal_actions(state))
@@ -80,7 +86,22 @@ def think(board, state):
         node = root_node
 
         # Do MCTS - This is all you!
+        leaf = traverse_nodes(node, board, sampled_game, identity_of_bot)
+        expand_leaf(leaf, board, sampled_game)
+        simulation_result = rollout(board, state)
+        backpropagate(leaf, simulation_result[identity_of_bot])
 
     # Return an action, typically the most frequently used action (from the root) or the action with the best
     # estimated win rate.
-    return None
+    
+
+    return best_child(root_node)
+
+def best_child(node):
+    if len(node.child_nodes) == 0:
+        return node
+    for child in node.child_nodes.values():
+        temp = best_child(child)
+        if temp.visits > to_return.visits:
+            to_return = temp
+    return to_return

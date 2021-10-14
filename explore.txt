@@ -1,0 +1,572 @@
+
+Round 0, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 1, fight!
+Finished!
+
+The draw bot wins this round! ({1: 0, 2: 0})
+
+Round 2, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 3, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 4, fight!
+Finished!
+
+The draw bot wins this round! ({1: 0, 2: 0})
+
+Round 5, fight!
+Finished!
+
+The draw bot wins this round! ({1: 0, 2: 0})
+
+Round 6, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 7, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 8, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 9, fight!
+Finished!
+
+The draw bot wins this round! ({1: 0, 2: 0})
+
+Round 10, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 11, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 12, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 13, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 14, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 15, fight!
+Finished!
+
+The draw bot wins this round! ({1: 0, 2: 0})
+
+Round 16, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 17, fight!
+Finished!
+
+The draw bot wins this round! ({1: 0, 2: 0})
+
+Round 18, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 19, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 20, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 21, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 22, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 23, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 24, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 25, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 26, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 27, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 28, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 29, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 30, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 31, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 32, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 33, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 34, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 35, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 36, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 37, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 38, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 39, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 40, fight!
+Finished!
+
+The draw bot wins this round! ({1: 0, 2: 0})
+
+Round 41, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 42, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 43, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 44, fight!
+Finished!
+
+The draw bot wins this round! ({1: 0, 2: 0})
+
+Round 45, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 46, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 47, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 48, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 49, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 50, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 51, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 52, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 53, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 54, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 55, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 56, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 57, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 58, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 59, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 60, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 61, fight!
+Finished!
+
+The draw bot wins this round! ({1: 0, 2: 0})
+
+Round 62, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 63, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 64, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 65, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 66, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 67, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 68, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 69, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 70, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 71, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 72, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 73, fight!
+Finished!
+
+The draw bot wins this round! ({1: 0, 2: 0})
+
+Round 74, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 75, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 76, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 77, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 78, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 79, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 80, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 81, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 82, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 83, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 84, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 85, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 86, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 87, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 88, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 89, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 90, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 91, fight!
+Finished!
+
+The draw bot wins this round! ({1: 0, 2: 0})
+
+Round 92, fight!
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 93, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 94, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 95, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 96, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 97, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 98, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 99, fight!
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Final win counts: {'draw': 11, 1: 50, 2: 39}
+271.6934810629991  seconds
+
+Round 0, fight!
+o
+8
+8
+o
+8
+8
+8
+8
+o
+8
+8
+8
+8
+o
+8
+8
+8
+8
+o
+8
+8
+8
+8
+o
+8
+8
+8
+8
+o
+8
+8
+8
+8
+o
+8
+8
+8
+8
+o
+8
+8
+8
+8
+o
+8
+8
+8
+8
+o
+8
+8
+8
+8
+o
+8
+8
+8
+8
+o
+8
+8
+8
+8
+o
+8
+8
+8

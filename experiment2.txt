@@ -1,0 +1,7 @@
+Experiment 2: 
+
+Does the modified version win more games?
+    Yes. On average, the modified bot wins more games than the vanilla bot.
+
+Does this change if you increase or decrease the size of the trees?
+    Yes. Our bot tends to win at a higher number of nodes. Because there are so many nodes to choose from at the start of the game, it can't remember all of the old moves it foresaw. However, when we use a higher node_num value, it expects a wider gamut of possible moves and already has a partially developed tree for those scenarios.

@@ -1,0 +1,151 @@
+from mcts_node import MCTSNode
+from random import choice
+from math import sqrt, log, inf
+from timeit import default_timer as time
+from threading import Thread, Lock
+
+num_nodes = 1000
+explore_faction = 2.
+node_states = dict()
+
+def traverse_nodes(node, board, state, identity):
+    curr_node = node
+    return best_ucb(curr_node, True)
+
+def expand_leaf_multi(node, board, state):
+    lock = Lock()
+    lockbox = [lock]
+    global returned_nodes
+    returned_nodes = []
+    untrieds = len(node.untried_actions)
+    if untrieds > 4:
+        untrieds = 4
+    tlist = []
+    for i in range(untrieds):
+        t = Thread(target=expand_leaf, args=(node,board,state,lockbox))
+        t.start()
+        tlist.append(t)
+    for thread in tlist:
+        thread.join()
+
+def expand_leaf(node, board, state, lockbox):
+    # choose a random action in our node's list of untried actions
+    # do we have any untried actions
+    global node_states
+    
+    lock = lockbox[0]
+    lock.acquire()
+    next_action = node.untried_actions[0]
+    # remove the node from parent untried
+    node.untried_actions.pop(0)
+    lock.release()
+    # get a new state based on that move
+    next_state = board.next_state(state, next_action)
+    # create a new node using this info
+    new_node = MCTSNode(node, next_action, board.legal_actions(next_state))
+    # add it as a child to our provided node
+    node.child_nodes[next_action] = new_node
+    # return the node and the new state
+    node_states[next_state] = new_node
+    returned_nodes.append(new_node)
+    return new_node
+
+def rollout(board, state):
+    temp_state = state
+    # randomly choose an action from the board
+    while not board.is_ended(temp_state):
+        rand_action = choice(board.legal_actions(temp_state))
+        temp_state = board.next_state(temp_state, rand_action)
+    return temp_state
+
+def backpropagate(node, won):
+    while node.parent:
+        node.wins += won
+        node.visits += 1
+        node = node.parent
+    node.wins += won
+    node.visits += 1    
+
+def think(board, state):
+    global node_states
+    global returned_nodes
+    
+    if not len(node_states) or state not in node_states:
+        node_states = dict()
+        node_states[state] = MCTSNode(parent=None, parent_action=None, action_list=board.legal_actions(state))
+    
+    root_node = node_states[state]
+    identity_of_bot = board.current_player(state)
+    node_game = 0
+    while node_game < num_nodes:
+        node_game += 1
+        # Copy the game for sampling a playthrough
+        sampled_game = state
+        # Start at root
+        node = root_node        
+        
+        # use traverse_nodes to find the next leaf position as a result of OUR action
+        node = traverse_nodes(node, board, sampled_game, identity_of_bot)
+        # use expand_leaf to add the node from our action
+        sampled_game, board = action_tracker(node, board, sampled_game)
+        
+        wins = []
+        if not node.untried_actions:
+            win = board.points_values(sampled_game)[identity_of_bot]
+            wins = [(node, win)]
+        else:
+            lock = Lock()
+            expand_leaf_multi(node, board, sampled_game)
+            for rn in returned_nodes:
+                sampled_game = board.next_state(sampled_game, rn.parent_action)
+                # use the state provided by rollout to simulate that game
+                sampled_game = rollout(board, sampled_game)
+                # use the leaf from expand_leaf AND the result from rollout to set our visits and wins
+                wins.append((rn, board.points_values(sampled_game)[identity_of_bot]))
+            
+        for w in wins:
+            backpropagate(w[0], w[1])
+        
+    return best_child_action(root_node, identity_of_bot)
+
+def best_child_action(node, identity):
+    best_winrate = float('-inf')
+    best_action = None
+    winrates = []
+    for action, child in node.child_nodes.items():
+        winrate = child.wins
+        winrates.append(winrate)
+        if winrate > best_winrate:
+            best_action = action
+            best_winrate = winrate
+    return best_action
+
+# Updating the state with each action in node_actions
+def action_tracker(node, board, state):
+    node_actions = []
+    while node.parent:
+        node_actions.append(node.parent_action)
+        node = node.parent
+    node_actions.reverse()
+    for each_action in node_actions:
+        state = board.next_state(state, each_action)
+    return state, board
+
+def ucb(child, ours):
+    winrate = (child.wins/child.visits)
+    if not ours:
+        winrate = 1 - winrate
+    return winrate + explore_faction * sqrt(log(child.parent.visits)/child.visits)
+
+def best_ucb(node, ours):
+    while not node.untried_actions and node.child_nodes:
+        bestOutcome = float('-inf')
+        temp = None
+        for action, child in node.child_nodes.items():
+            child_ucb = ucb(child, ours)
+            if child_ucb > bestOutcome:
+                temp = child
+                bestOutcome = child_ucb
+        node = temp
+        ours = not ours
+    return node

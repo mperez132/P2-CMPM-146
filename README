@@ -1,0 +1,13 @@
+README for TTT MCTS assignment, CMPM146
+
+Moises Perez (mperez86)
+Matthew Fritsch (mfritsch)
+
+-----------------------------------------------------
+
+Code files: mcts_vanilla.py, mcts_modified.py, mcts_murderbot.py
+Extra files: README, experiment1.txt, experiment2.txt, experiment3.txt
+
+----------------------------------------------------
+
+This is our implementation of the Monte Carlo Tree Search algorithm for use in Ultimate Tic Tac Toe. mcts_vanilla includes the base implementation. mcts_modified includes our additional work to create a more performant mcts bot, including multithreading and node memory. mcts_murderbot is a fun third addition that better utilizes the mcts_modified program by exploring for a specified time limit. 

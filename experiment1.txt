@@ -1,0 +1,28 @@
+Experiment 1: 
+
+
+Results of mcts_vanilla with a specified num_nodes value: 
+    P1 = mcts_100. vanilla bot, but uses 100 nodes instead of 1000
+    P2 = mcts_var. vanilla bot, but uses a specified number of nodes
+
+    mcts_100 vs. mcts_var where var=10
+        mcts_100 wins = 85
+        mcts_var wins = 12
+        Tie games = 3
+
+    mcts_100 vs. mcts_var where var=50
+        mcts_100 wins = 65
+        mcts_var wins = 25
+        Tie games = 10
+
+    mcts_100 vs. mcts_var where var=100*
+        mcts_100 wins = 49
+        mcts_var wins = 40
+        Tie games = 11
+
+    mcts_100 vs. mcts_var where var=1000
+        mcts_100 wins = 12
+        mcts_var wins = 86
+        Tie games = 2
+
+*Note: We retested mcts_100 vs. mcts_var (var=100) for 500 simulated games. Often mcts_100 would have more wins than mcts_var, but the numbers were often very close. We believe it had the upper hand because it was allowed to make the first move, which dictates the flow of much of the game.

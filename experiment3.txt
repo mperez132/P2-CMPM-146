@@ -1,0 +1,8 @@
+Experiment 3:
+
+Does your modified version have a larger or smaller tree than the vanilla version?
+    Our modified bot has a larger tree than the vanilla version. This is due to our multithreading implementation, which uses up to four threads at a time to increase the speed of node acquisition. The modified bot also has a larger tree than the vanilla bot because of the node memory; the modified bot remembers all the previous states and nodes it explored, maintaining branches that the bot expected the enemy could take for the next time "think" is called.
+
+
+Does this comparison change at various time limits?
+    Yes. When the modified bot runs for a longer period of time, it remembers more explored nodes from the node memory. That means it has so many more planned outcomes based purely on how much time it is allotted to explore.
